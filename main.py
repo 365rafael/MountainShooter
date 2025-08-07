@@ -12,3 +12,5 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit() # close window
             quit()
+
+# Desenvolvido por Rafael Arantes, na disciplina Linguagem de Programação Aplicada do curso ADS UNINTER
