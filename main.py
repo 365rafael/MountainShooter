@@ -1,16 +1,4 @@
-import pygame
+from code.Game import Game
 
-print('Setup Start')
-pygame.init()
-window = pygame.display.set_mode(size=(800, 600))
-print('Setup End')
-
-print('Loop Start')
-while True:
-    # check for all events
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit() # close window
-            quit() #end game
-
-# Desenvolvido por Rafael Arantes, na disciplina Linguagem de Programação Aplicada do curso ADS UNINTER
+game = Game()
+game.run()
